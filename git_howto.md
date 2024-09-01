@@ -100,3 +100,18 @@ To clone a repository
 ```sh
 git clone <link>
 ```
+To rename a branch
+```sh
+git branch -m <new name>
+````
+
+To upload local files to GitHub
+```sh
+git push -u origin
+````
+
+To see remote repository status
+```sh
+git remote -v
+````
+
