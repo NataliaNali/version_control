@@ -115,3 +115,27 @@ To see remote repository status
 git remote -v
 ````
 
+To pull changes from GitHub
+```sh
+git pull
+````
+
+To push changes to GitHub
+```sh
+git push
+````
+
+To push only one branch
+```sh
+git push --set - upstream origin <branch name>
+````
+
+To push and delete a branch
+```sh
+git push origin --delete <branch name>
+````
+
+To pull changes and compare
+```sh
+git pull --rebase
+````
